@@ -10,5 +10,5 @@
   "delete": [
     { "type": "sucess", "msg":"Deleted"},    
     { "type": "error", "msg":"Error_when_deleting"},
-  ],
+  ]
 }
