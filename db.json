@@ -1,14 +1,14 @@
 {
-  "create": [
-    { "type": "sucess", "data":{"conf_id": 125}, "msg":"Created_sucessfully"},
-    { "type": "error", "msg":"Error_when_creating"},
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
-  "update": [
-    { "type": "sucess", "data":{"conf_id": 125}, "msg":"Updated_sucessfully"},    
-    { "type": "error", "msg":"Error_when_updating"},
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "delete": [
-    { "type": "sucess", "msg":"Deleted"},    
-    { "type": "error", "msg":"Error_when_deleting"},
-  ]
+  "profile": {
+    "name": "typicode"
+  }
 }
