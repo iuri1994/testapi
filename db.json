@@ -1,14 +1,15 @@
 {
   "create": [
-    { "type": "sucess", "data":{"conf_id": 125}, "msg":"Created_sucessfully"},
-    { "type": "error", "msg":"Error_when_creating"},
+    { "type": "sucess", "data":{"conf_id": 125}, "msg":"Created_sucessfully" },
+    { "type": "error",  "msg":"Error_when_creating" },
+    { "id": 3, "title": "Post 3" }
   ],
   "update": [
-    { "type": "sucess", "data":{"conf_id": 125}, "msg":"Updated_sucessfully"},    
-    { "type": "error", "msg":"Error_when_updating"},
+    { "type": "sucess",  "data":{"conf_id": 125},  "msg":"Updated_sucessfully"},
+    { "type": "error", "msg":"Error_when_updating"}
   ],
   "delete": [
-    { "type": "sucess", "msg":"Deleted"},    
-    { "type": "error", "msg":"Error_when_deleting"},
+    { "type": "sucess", "msg":"Deleted"},
+    { "type": "error", "msg":"Error_when_deleting"}
   ]
 }
